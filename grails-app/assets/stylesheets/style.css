@@ -1,0 +1,322 @@
+*{
+    background: lightgreen;
+    font-family: 'Lato', serif;
+    max-width: 100%;
+    margin: auto;
+}
+#topbar {
+    width: 100%;
+    overflow: hidden; /* will contain if #first is longer than #second */
+}
+#calendar1 {
+    width: 700px;
+    float:left; /* add this */
+    align-content: center;
+}
+#notification1 {
+    overflow: hidden; /* if you don't want #second to wrap below #first */
+}
+#loginline{
+    text-size: 25;
+    text-align: center;
+    text-color: white; !important;
+    width:100%;
+}
+#logoutline{
+    text-size: 67; !important;
+    text-align: center; !important;
+    text-color: white; !important;
+}
+#topblock
+{
+    width:100%;
+    text-align: center;
+}
+.welcome{
+    padding-top: 100px;
+    size: 300px;
+    text-align: center;
+    color:black;
+    height: 10px;
+    width: 1400px;
+    font-weight: bold;
+}
+/*#topblock#title{*/
+/*align: center;*/
+/*width:100%;*/
+/*background: gray;*/
+/*}*/
+.inner
+{
+    display: inline-block;
+    background: none;
+    border: none;
+}
+#calender{
+    width:50%;
+    align: left;
+    color: gray;
+}
+#leaderboard{
+    width:50%;
+    align: left;
+    color: gray;
+}
+#title{
+    /*padding-right: 440px;*/
+    align:center;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 53px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+#welcome{
+    align: center;
+    text-align: center;
+}
+#logout{
+text-align: center;
+    padding-top: 20px;
+   
+    size: 50px;
+    background-color: mediumseagreen;
+    border: none;
+    color: black;
+    padding: 15px 79px;
+     text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#addRoommate{
+text-align: center;
+    padding-top: 20px;
+    
+    size: 50px;
+    background-color: mediumseagreen;
+    border: none;
+    color: black;
+    padding: 15px 79px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.class{
+}
+#buttons {
+ 
+}
+#addLeft { padding-left:50px;
+    float:left; !important;/* add this */
+    align-content: center;
+}
+#logoutRight { padding-right:50px; float:right;
+    !important;/* if you don't want #second to wrap below #first */
+}
+#bottombar {heigh:500px;
+ width:100%; 
+}
+#housemates1 { padding-left:50px;
+    float:left; !important;/* add this */
+ 
+}
+#finance1 { padding-right:50px; float:right;
+    !important;/* if you don't want #second to wrap below #first */
+}
+.cld-main{
+  width: 700px;
+}
+.cld-main a{
+  color: #7B00FF;
+}
+  .cld-datetime{
+    position: relative;
+    width: 66%;
+    min-width: 100px;
+    max-width: 300px;
+    margin: auto;
+    overflow: hidden;
+  }
+  .cld-datetime .today{
+    position: relative;
+    float: left;
+    width: calc(100% - 40px);
+    margin: auto;
+    text-align: center;
+  }
+  .cld-nav{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+  }
+  .cld-nav:hover{
+    cursor: pointer;
+  }
+  .cld-nav:hover svg{
+      fill: #666;
+  }
+  .cld-rwd{
+    float: left;
+  }
+  .cld-fwd{
+    float: right;
+  }
+    .cld-nav svg:hover{
+
+    }
+.cld-labels, .cld-days{
+  padding-left: 0;
+  background: white;
+}
+  .cld-label, .cld-day{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 14.28%;
+    text-align: center;
+  }
+  .cld-day{
+    float: left;
+    position: relative;
+    margin: 0;
+    padding: 5px;
+    height: 90px;
+    border: 1px solid #ddd;
+    overflow-y: visible;
+    overflow-x: visible;
+    background: white
+  }
+  .cld-day.clickable:hover{
+    cursor: pointer;
+  }
+  .cld-day.today{
+    border: 1px solid #7B00FF;
+  }
+  .cld-day.disableDay{
+    opacity: 0.5;
+  }
+  .cld-day.nextMonth, .cld-day.prevMonth{
+    opacity: 0.33;
+  }
+    .cld-number{
+      margin: 0;
+      text-align: left;
+      background: white;
+    }
+
+      .cld-title{
+        font-size: 14px;
+        display: block;
+        margin: 0;
+        font-weight: normal;
+        background: white;
+      }
+
+      .cld-day:hover{
+        display: block;
+        background: #eee;
+        background-color: lightblue;
+      }
+      .cld-number.eventday{
+        background: white;
+        font-weight: bold;
+      }
+      .cld-number.eventday:hover{
+        cursor: pointer;
+        background: white;
+      }
+      .today .cld-number.eventday:hover{
+      }
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    background: white;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    max-width: 150px;
+    margin: none;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 5;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+/*** Table Styles **/
+
+.table-fill {
+  background: white;
+  border-collapse: collapse;
+  height: 200px;
+  margin: left;
+  max-width: 600px;
+  padding:5px;
+  width: 100%;
+}
+ 
+th {
+  color:#333;
+  background: #61737a;
+  font-size:15px;
+  font-weight: 100;
+  padding:12px;
+  text-align:center;
+  vertical-align:middle;
+}
+  
+tr {
+  color:#666B85;
+  font-size:12px;
+  font-weight:normal;
+}
+
+tr:nth-child(odd) td {
+  background:#EBEBEB;
+}
+ 
+tr:hover td, tr:nth-child(odd):hover td {
+  background: #0ed4ea;
+  color:#000000;
+}
+ 
+
+tr:last-child td:first-child {
+  border-bottom-left-radius:3px;
+}
+ 
+tr:last-child td:last-child {
+  border-bottom-right-radius:3px;
+}
+ 
+td {
+  background:#FFFFFF;
+  padding:4px;
+  text-align:center;
+  vertical-align:middle;
+  font-size:12px;
+}

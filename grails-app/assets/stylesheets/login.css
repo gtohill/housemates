@@ -1,0 +1,143 @@
+*{
+    background: lightgreen;
+    font-family: 'Lato', serif;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.welcome{
+    padding-top: 40px;
+    size: 20px;
+    text-align: center;
+    color:black;
+    height: 10px;
+    width: 1400px;
+    font-weight: bold;
+
+}
+
+.housemates{
+    size: 200px;
+    text-align: center;
+    color:white;
+    height: 20px;
+    width: 1500px;
+    font-weight: bold;
+
+}
+
+.signup{
+    padding-top: 50px;
+    size: 20px;
+    text-align: center;
+
+    color:black;
+    height: 30px;
+    width: 1500px;
+    top:20px;
+    line-height: 104px;
+}
+
+#googlebutton{
+    top:50px;
+    position: relative;
+}
+
+#member{
+    padding-top: 50px;
+    padding-right: 400px;
+    size: 5px;
+    color:black;
+    text-align: center;
+
+}
+
+
+#login{
+    text-align: center;
+    padding-top: 0px;
+    padding-right: 700px;
+    size: 50px;
+    background-color: mediumseagreen;
+    border: none;
+    color: black;
+    padding: 15px 79px;
+    text-align: center;
+    text-decoration: double;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+#nomember{
+    padding-top: 50px;
+    padding-right: 800px;
+    size: 5px;
+    color:black;
+    text-align: center;
+}
+
+
+#createhouse{
+    text-align: center;
+    padding-top: 0px;
+    padding-left: 700px;
+    size: 50px;
+    background-color: mediumseagreen;
+    border: none;
+    color: black;
+    padding: 15px 79px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#signoutgoogle{
+    size: 30px;
+    text-align: center;
+    padding-left: 430px;
+    color:black;
+    height: 10px;
+    width: 1400px;
+}
+
+#wrapper {
+    width: 800px;
+    overflow: hidden; /* will contain if #first is longer than #second */
+}
+#first {
+    width: 550px;
+    float:left; /* add this */
+    align-content: center;
+}
+#second {
+    overflow: hidden; /* if you don't want #second to wrap below #first */
+}
+
+#option {
+    padding-top: 60px;
+    width: 800px;
+    overflow: hidden; /* will contain if #first is longer than #second */
+}
+#one {
+    text-align: left;
+    margin-top: 0px;
+    float: left;
+    clear: both;
+}
+
+#two {
+    text-align: right;
+}
+
+.mem{
+    padding-top: 50px;
+    size: 20px;
+    color:black;
+    text-align: center;
+}
